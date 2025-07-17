@@ -3,12 +3,13 @@ fn picky_eater(food: &str) -> &str {
     if food == "strawberry" {
         "Yummy!"
     } else {
-        1
+        "Not Yummy"
     }
 }
 
 fn main() {
     // You can optionally experiment here.
+    println!("The food is {}", picky_eater("strawberry"));
 }
 
 // TODO: Read the tests to understand the desired behavior.
